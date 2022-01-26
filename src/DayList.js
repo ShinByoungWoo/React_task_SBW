@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 
 const DayList = (props) => {
   const navigate = useNavigate();
-  // const [color, setColor] = useState('#eee');
   const days = [
     "월요일",
     "화요일",

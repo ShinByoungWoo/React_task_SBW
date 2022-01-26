@@ -1,5 +1,4 @@
 import React from "react";
-// import { useState } from "react";
 import styled from "styled-components";
 import { useNavigate, useParams } from "react-router-dom";
 import styles from "./Detail.module.css";
@@ -9,31 +8,11 @@ const Detail = (props) => {
   
   const navigate = useNavigate();
 
-  // const days = useParams();
-  // console.log(days)
-
-  // const [color, setColor] = useState();
-
+  
   const id_num = 0;
 
-  // 컬러 함수
-  // const ChangeColor = (e) => {
-  //   const id_num = e.target.id
-  //   console.log(id_num)
-  //   for (let i = 1; i <= 5; i++) {
-  //     const num = document.getElementById(i);
-  //     if (i <= id_num) {
-  //       if (!num.classList.contains(styles.changeBack)) {
-  //         num.classList.add(styles.changeBack);
-  //       }
-  //     }
-  //     else{
-  //       if(num.classList.contains(styles.changeBack))
-  //         num.classList.remove(styles.changeBack);
-  //     }
-  //   }
-  // };
-
+  
+  // 색 변경 
   const ChangeColor = (e) => {
     const id_num = e.target.id;
     // console.log(id_num)
@@ -56,11 +35,6 @@ const Detail = (props) => {
     }
   };
 
-  // num.classList.add(styles.changeBack);
-  // num.classList.remove(styles.changeBack);
-  // if (!sdf.classList.contains(styles.changeBack)) {
-  //   sdf.classList.add(styles.changeBack);
-  // }
 
   return (
     <div>
@@ -112,14 +86,6 @@ const H3 = styled.h2`
   font-weight: bold;
   color: purple;
 `;
-
-// const ScroesDetail = styled.div`
-//   padding: 20px;
-//   margin: 12px auto;
-//   background-color: #eee;
-//   border-radius: 50%;
-//   cursor: pointer;
-// `;
 
 const Button = styled.button`
   width: 80%;
