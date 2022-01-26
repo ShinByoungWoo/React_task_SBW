@@ -1,0 +1,17 @@
+.rate {
+  background-color: #eee;
+
+  padding: 20px;
+  margin: 12px auto;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.changeBack {
+  background-color: yellow;
+
+  padding: 20px;
+  margin: 12px auto;
+  border-radius: 50%;
+  cursor: pointer;
+}
