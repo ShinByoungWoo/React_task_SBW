@@ -3,8 +3,9 @@ import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
 
 const DayList = (props) => {
-  const navigate = useNavigate();
-  const days = [
+  const navigate = useNavigate(); // 링크 이동 리액트 훅 
+  
+  const days = [ // Detail.js에 내려줄 데이터 선언
     "월요일",
     "화요일",
     "수요일",
@@ -14,6 +15,8 @@ const DayList = (props) => {
     "일요일",
   ];
 
+  // 난수 생성을 위한 함수 사용
+  // 월~일까지 매일 난수 생성을 도와줌
   const mon = Math.floor(Math.random() * 5) + 1;
   const tue = Math.floor(Math.random() * 5) + 1;
   const wed = Math.floor(Math.random() * 5) + 1;

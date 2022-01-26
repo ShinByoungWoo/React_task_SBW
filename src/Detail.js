@@ -4,15 +4,13 @@ import { useNavigate, useParams } from "react-router-dom";
 import styles from "./Detail.module.css";
 
 const Detail = (props) => {
-  const { days } = useParams();
+  const { days } = useParams(); // DayList에서 요일별 데이터 가져오기
   
-  const navigate = useNavigate();
+  const navigate = useNavigate(); // 링크 이동
 
-  
-  const id_num = 0;
-
-  
   // 색 변경 
+  // const id_num = 0;
+  
   const ChangeColor = (e) => {
     const id_num = e.target.id;
     // console.log(id_num)

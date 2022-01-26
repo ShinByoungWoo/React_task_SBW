@@ -1,6 +1,7 @@
+/* 평점 속 원 색칠 하기 위한 스타일 모듈  */
+
 .rate {
   background-color: #eee;
-
   padding: 20px;
   margin: 12px auto;
   border-radius: 50%;
@@ -9,9 +10,10 @@
 
 .changeBack {
   background-color: yellow;
-
   padding: 20px;
   margin: 12px auto;
   border-radius: 50%;
   cursor: pointer;
 }
+
+
