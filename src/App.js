@@ -10,8 +10,6 @@ function App() {
       <MyContainer class="container">
         <Routes>
           <Route path="/" element={<DayList />} />
-        </Routes>
-        <Routes>
           <Route path="/detail/:days" element={<Detail />} />
         </Routes>
       </MyContainer>
